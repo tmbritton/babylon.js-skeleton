@@ -1,0 +1,19 @@
+{
+  "name": "demo1",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"onchange \"src/**/*\" -- prettier --write --ignore-unknown {{changed}} \"",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "concurrently": "6.3.0",
+    "onchange": "7.1.0",
+    "prettier": "2.4.1",
+    "typescript": "4.3.2",
+    "vite": "2.6.0"
+  },
+  "dependencies": {
+    "babylonjs": "^4.2.0"
+  }
+}
