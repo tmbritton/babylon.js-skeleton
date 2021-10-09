@@ -15,5 +15,10 @@
     "noImplicitReturns": true,
     "types": ["babylonjs"]
   },
-  "include": ["./src"]
+  "include": ["./src"],
+  "types": [
+    "babylonjs",
+    "babylonjs-loaders",
+    ""
+  ],
 }

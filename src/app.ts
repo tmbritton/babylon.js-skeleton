@@ -7,6 +7,7 @@ import {
   HemisphericLight,
   MeshBuilder,
 } from 'babylonjs';
+import 'babylonjs-loaders';
 
 export default class App {
   private canvas: HTMLCanvasElement;
